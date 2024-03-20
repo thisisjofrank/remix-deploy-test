@@ -39,5 +39,5 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "jofranchett-remix-deplo-33"
-          entrypoint: "server/index.js"
+          entrypoint: "./server/index.js"
           root: "build"
